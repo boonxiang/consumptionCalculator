@@ -59,6 +59,7 @@ function calculateEnergyComparison() {
         <p><strong>Energy Consumption Difference:</strong> ${diffConsumption.toFixed(2)} kWh</p>
 
         <div id="situation1" style="${highlight1 ? highlightStyle : normalStyle}">
+            <li><strong>Low Solar Generation:</strong> If your solar generation is lower than last month, it means you had to rely more on TNB energy, which increases your bill.</li>
             <li>You may refer to this <a href="https://boonxiang.github.io/performanceCalculator-v2/" target="_blank">Solar Performance Calculator</a> for more information.</li>
         </div>
         <br>
@@ -71,4 +72,5 @@ function calculateEnergyComparison() {
         </div>
     `;
 }
+
 
